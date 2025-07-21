@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import ChaosLink from "@/components/ui/ChaosLink";
 
 interface SkillCategory {
   category: string;
@@ -43,6 +44,7 @@ const funFacts = [
 export default function About() {
   const [showIntro, setShowIntro] = useState(false);
   const [showSections, setShowSections] = useState<boolean[]>([]);
+  const [showSocials, setShowSocials] = useState(false);
 
   useEffect(() => {
     // Initialize visibility states
@@ -50,6 +52,7 @@ export default function About() {
 
     // Staggered animations
     setTimeout(() => setShowIntro(true), 100);
+    setTimeout(() => setShowSocials(true), 400);
 
     // Show each section with delay
     [0, 1, 2].forEach((index) => {
@@ -75,9 +78,9 @@ export default function About() {
         }}
       >
         <p>
-          Born and raised in Brazil with South Korean roots, I’ve always lived
+          Born and raised in Brazil with South Korean roots, I've always lived
           at the intersection of vibrant cultures. My family preserved aspects
-          of Korean tradition within Brazil’s unique energy, shaping a
+          of Korean tradition within Brazil's unique energy, shaping a
           perspective rooted in diversity and contrast.
         </p>
         <p>
@@ -86,10 +89,39 @@ export default function About() {
           to adapt quickly and thrive in unfamiliar environments.
         </p>
         <p>
-          That curiosity eventually led me to computer science. I’m driven by
+          That curiosity eventually led me to computer science. I'm driven by
           its rapid progress and limitless possibilities, and I find joy in
           learning, building, and pushing the boundaries of what I can create.
         </p>
+
+        {/* Social Links */}
+        <div
+          className="space-y-1 text-sm pt-4"
+          style={{
+            opacity: showSocials ? 1 : 0,
+            visibility: showSocials ? "visible" : "hidden",
+            transition: "opacity 0.5s ease-in-out",
+          }}
+        >
+          <p className="flex flex-row gap-2 items-center">
+            <span>linkedin</span>
+            <ChaosLink href="https://www.linkedin.com/in/felipe-min/">
+              /felipe-min ↗
+            </ChaosLink>
+          </p>
+
+          <p className="flex flex-row gap-2 items-center">
+            <span>github</span>
+            <ChaosLink href="https://github.com/xxfmin">@xxfmin ↗</ChaosLink>
+          </p>
+
+          <p className="flex flex-row gap-2 items-center">
+            <span>spotify</span>
+            <ChaosLink href="https://open.spotify.com/user/felipemin">
+              @felipemin ↗
+            </ChaosLink>
+          </p>
+        </div>
       </div>
 
       {/* Right side*/}
