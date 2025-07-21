@@ -7,6 +7,11 @@ import Sidebar from "@/components/global/Sidebar";
 export const metadata: Metadata = {
   title: "Felipe Min",
   description: "Felipe Min's personal portfolio",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export const viewport = {
