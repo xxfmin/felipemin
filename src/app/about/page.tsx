@@ -78,10 +78,10 @@ export default function About() {
         }}
       >
         <p>
-          Born and raised in Brazil with South Korean roots, I've always lived
-          at the intersection of vibrant cultures. My family preserved aspects
-          of Korean tradition within Brazil's unique energy, shaping a
-          perspective rooted in diversity and contrast.
+          Born and raised in Brazil with South Korean roots, I&apos;ve always
+          lived at the intersection of vibrant cultures. My family preserved
+          aspects of Korean tradition within Brazil&apos;s unique energy,
+          shaping a perspective rooted in diversity and contrast.
         </p>
         <p>
           Moving to the U.S. at 12 expanded my worldview and deepened my
@@ -89,8 +89,8 @@ export default function About() {
           to adapt quickly and thrive in unfamiliar environments.
         </p>
         <p>
-          That curiosity eventually led me to computer science. I'm driven by
-          its rapid progress and limitless possibilities, and I find joy in
+          That curiosity eventually led me to computer science. I&apos;m driven
+          by its rapid progress and limitless possibilities, and I find joy in
           learning, building, and pushing the boundaries of what I can create.
         </p>
 
