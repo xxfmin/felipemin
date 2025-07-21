@@ -38,7 +38,6 @@ const funFacts = [
   "I speak 4 languages: English, Korean, Portuguese, and Spanish",
   "I can solve a Rubik's cube in under 40 seconds",
   "Favorite country visited is Japan",
-  "I don't like french fries",
 ];
 
 export default function About() {
