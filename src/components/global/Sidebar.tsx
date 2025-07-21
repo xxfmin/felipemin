@@ -18,7 +18,7 @@ export default function Sidebar() {
       {/* Title */}
       <div className="mb-10 font-['var(--font-eb-garamond)'] italic text-2xl font-light text-decoration-none outline-none border-none">
         <Link href="/" className="text-gray-400">
-          F.M.
+          F. M.
         </Link>
       </div>
 

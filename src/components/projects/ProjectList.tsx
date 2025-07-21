@@ -81,14 +81,14 @@ export default function ProjectList() {
           <div className="flex">
             <span className="mr-2">→</span>
             <span>
-              started with Odyssey because I wanted to learn how to make
-              full-stack apps
+              started with Odyssey because I wanted to improve my full-stack
+              skills
             </span>
           </div>
           <div className="flex">
             <span className="mr-2">→</span>
             <span>
-              built Delta Palette to test with my mom (she's color vision
+              built Delta Palette to test with my mom (she&apos;s color vision
               deficient)
             </span>
           </div>

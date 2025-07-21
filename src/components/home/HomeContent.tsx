@@ -56,9 +56,8 @@ export default function HomeContent() {
             >
               I like building where software meets the real world, and tiny
               optimizations or insights can make a big difference. I’ve chased
-              this feeling across research opportunities, weekend hackathons,
-              and full-stack apps I built from scratch. Oh, and I study CS at
-              the{" "}
+              this feeling across research opportunities, hackathons, and
+              full-stack apps I built from scratch. Oh, and I study CS at the{" "}
               <ChaosLink href="https://www.cs.ucf.edu/">
                 University of Central Florida
               </ChaosLink>
