@@ -3,6 +3,7 @@ import "./globals.css";
 import BackgroundNoise from "@/components/global/BackgroundNoise";
 import MobileNav from "@/components/global/MobileNav";
 import Sidebar from "@/components/global/Sidebar";
+import Footer from "@/components/global/Footer";
 
 export const metadata: Metadata = {
   title: "Felipe Min",
@@ -46,6 +47,9 @@ export default function RootLayout({
             <div className="min-h-screen md:h-full ml-0 md:ml-40 pt-16 md:pt-0">
               {children}
             </div>
+
+            {/* Footer */}
+            <Footer />
           </div>
         </div>
       </body>
