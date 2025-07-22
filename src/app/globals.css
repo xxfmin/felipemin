@@ -25,7 +25,7 @@
 }
 
 @layer base {
-  p {
+  p, li {
     @apply text-[14px] leading-[1.6];
   }
 }

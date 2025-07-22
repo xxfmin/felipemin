@@ -14,7 +14,7 @@ export default function Sidebar() {
   ];
 
   return (
-    <aside className="absolute left-0 top-0 h-full w-40 border-r border-gray-800 flex flex-col p-[2%] z-20">
+    <aside className="fixed left-0 top-0 h-full w-40 border-r border-gray-800 flex flex-col p-[2%] z-20 bg-background">
       {/* Title */}
       <div className="mb-10 font-['var(--font-eb-garamond)'] italic text-2xl font-light text-decoration-none outline-none border-none">
         <Link href="/" className="text-gray-400">
