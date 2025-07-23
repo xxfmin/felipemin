@@ -187,8 +187,8 @@ export default function Sous() {
             <ul className="list-disc list-inside space-y-2 text-gray-300">
               <li>
                 Built an intent classification system that understands complex
-                recipe queries like "healthy vegetarian dinner without nuts in
-                under 30 minutes"
+                recipe queries like &quot;healthy vegetarian dinner without nuts
+                in under 30 minutes&quot;
               </li>
               <li>
                 Extracts multiple search parameters (cuisine, dietary
@@ -228,7 +228,7 @@ export default function Sous() {
           </div>
 
           <p className="text-gray-500">
-            currently i'm trying to implement aws s3 and amazon tesseract so
+            currently i&aposm trying to implement aws s3 and amazon tesseract so
             that users can save recipes by uploading a recipe image/doc
           </p>
         </div>

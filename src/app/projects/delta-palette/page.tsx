@@ -94,7 +94,7 @@ export default function DeltaPalette() {
             <ChaosLink href="https://www.color-blindness.com/deuteranopia-red-green-color-blindness/">
               deuteranopia
             </ChaosLink>{" "}
-            (form of color vision deficiency), and on our trips she'd always
+            (form of color vision deficiency), and on our trips she&apos;d always
             squint at transit maps, unable to tell the lines apart. That is
             because she has difficulty distinguishing between red and green
             colors.
