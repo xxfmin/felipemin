@@ -111,7 +111,7 @@ export default function HomeContent() {
             >
               In my free time, I love{" "}
               <ChaosLink href="/traveling">traveling</ChaosLink>, trying new
-              food spots with my girlfriend, and rock climbing with friends.
+              food spots, and rock climbing with friends.
             </p>
           </div>
 

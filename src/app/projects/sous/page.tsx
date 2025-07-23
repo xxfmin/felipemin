@@ -228,8 +228,8 @@ export default function Sous() {
           </div>
 
           <p className="text-gray-500">
-            currently i&aposm trying to implement aws s3 and amazon tesseract so
-            that users can save recipes by uploading a recipe image/doc
+            currently i&apos;m trying to implement aws s3 and amazon tesseract
+            so that users can save recipes by uploading a recipe image/doc
           </p>
         </div>
       </div>

@@ -77,7 +77,7 @@ export default function ProjectList() {
         }}
       >
         <p>Mostly building tools that scratch my own itch.</p>
-        <div className="pl-2 space-y-2 text-sm">
+        <div className="pl-2 space-y-2 text-sm text-gray-400">
           <div className="flex">
             <span className="mr-2">→</span>
             <span>
