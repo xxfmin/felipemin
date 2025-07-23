@@ -9,7 +9,7 @@ export default function Sidebar() {
   const navItems = [
     { href: "/projects", label: "projects" },
     { href: "/experience", label: "experience" },
-    { href: "/about", label: "about me" },
+    { href: "/about", label: "about" },
     { href: "/traveling", label: "traveling" },
   ];
 
