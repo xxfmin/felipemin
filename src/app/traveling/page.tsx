@@ -54,7 +54,7 @@ export default function Traveling() {
 
         <p>⚲ South Korea</p>
         <Image
-          src="/traveling/korea1.jpg"
+          src="/traveling/korea1.JPG"
           alt="korea1"
           width={1200}
           height={800}
@@ -66,7 +66,7 @@ export default function Traveling() {
           priority
         />
         <Image
-          src="/traveling/korea2.jpg"
+          src="/traveling/korea2.JPG"
           alt="korea2"
           width={1200}
           height={800}
