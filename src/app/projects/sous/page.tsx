@@ -25,6 +25,22 @@ export default function Sous() {
   ];
 
   useEffect(() => {
+    // Add CSS to hide audio controls
+    const style = document.createElement("style");
+    style.textContent = `
+      video::-webkit-media-controls-volume-slider,
+      video::-webkit-media-controls-mute-button,
+      video::-webkit-media-controls-volume-slider-container,
+      video::-webkit-media-controls-volume-control-container {
+        display: none !important;
+      }
+      video::-moz-media-controls-volume-slider,
+      video::-moz-media-controls-mute-button {
+        display: none !important;
+      }
+    `;
+    document.head.appendChild(style);
+
     // Start animation with delay
     const timer = setTimeout(() => setShowContent(true), 200);
 
@@ -125,7 +141,7 @@ export default function Sous() {
           </div>
 
           <div className="space-y-3">
-            <p>Fridge Analysis Agent:</p>
+            <p>Fridge analysis:</p>
             <video
               controls
               loop
@@ -157,7 +173,7 @@ export default function Sous() {
           </div>
 
           <div className="space-y-3">
-            <p>Natural Language Recipe Search:</p>
+            <p>Natural language recipe search:</p>
             <video
               controls
               loop
@@ -189,7 +205,7 @@ export default function Sous() {
           </div>
 
           <div className="space-y-3">
-            <p>Cooking Q&A Assistant:</p>
+            <p>Cooking related questions:</p>
             <video
               controls
               loop
