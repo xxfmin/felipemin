@@ -92,6 +92,58 @@ export default function Traveling() {
           priority
         />
 
+        <p>⚲ Portugal</p>
+        <Image
+          src="/traveling/portugal1.jpg"
+          alt="portugal1"
+          width={1200}
+          height={800}
+          className="w-full h-auto"
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
+          priority
+        />
+        <Image
+          src="/traveling/portugal2.jpg"
+          alt="portugal2"
+          width={1200}
+          height={800}
+          className="w-full h-auto"
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
+          priority
+        />
+
+        <p>⚲ Spain</p>
+        <Image
+          src="/traveling/spain1.jpg"
+          alt="spain1"
+          width={1200}
+          height={800}
+          className="w-full h-auto"
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
+          priority
+        />
+        <Image
+          src="/traveling/spain2.jpg"
+          alt="spain2"
+          width={1200}
+          height={800}
+          className="w-full h-auto"
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+          }}
+          priority
+        />
+
         <p>⚲ France</p>
         <Image
           src="/traveling/paris.jpg"
