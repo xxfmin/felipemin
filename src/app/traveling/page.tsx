@@ -7,10 +7,7 @@ export default function Traveling() {
   const [showContent, setShowContent] = useState(false);
 
   useEffect(() => {
-    // Start animation with delay
     const timer = setTimeout(() => setShowContent(true), 200);
-
-    // Cleanup timer
     return () => {
       clearTimeout(timer);
     };
@@ -98,10 +95,9 @@ export default function Traveling() {
           alt="portugal1"
           width={1200}
           height={800}
-          className="w-full h-auto"
+          className="w-auto max-h-[700px] mx-auto"
           style={{
-            maxWidth: "100%",
-            height: "auto",
+            objectFit: "contain",
           }}
           priority
         />
@@ -110,10 +106,9 @@ export default function Traveling() {
           alt="portugal2"
           width={1200}
           height={800}
-          className="w-full h-auto"
+          className="w-auto max-h-[700px] mx-auto"
           style={{
-            maxWidth: "100%",
-            height: "auto",
+            objectFit: "contain",
           }}
           priority
         />
@@ -124,10 +119,9 @@ export default function Traveling() {
           alt="spain1"
           width={1200}
           height={800}
-          className="w-full h-auto"
+          className="w-auto max-h-[700px] mx-auto"
           style={{
-            maxWidth: "100%",
-            height: "auto",
+            objectFit: "contain",
           }}
           priority
         />
@@ -136,10 +130,9 @@ export default function Traveling() {
           alt="spain2"
           width={1200}
           height={800}
-          className="w-full h-auto"
+          className="w-auto max-h-[700px] mx-auto"
           style={{
-            maxWidth: "100%",
-            height: "auto",
+            objectFit: "contain",
           }}
           priority
         />
@@ -150,10 +143,9 @@ export default function Traveling() {
           alt="paris"
           width={1200}
           height={800}
-          className="w-full h-auto"
+          className="w-auto max-h-[700px] mx-auto"
           style={{
-            maxWidth: "100%",
-            height: "auto",
+            objectFit: "contain",
           }}
           priority
         />
@@ -164,10 +156,9 @@ export default function Traveling() {
           alt="mexico"
           width={1200}
           height={800}
-          className="w-full h-auto"
+          className="w-auto max-h-[700px] mx-auto"
           style={{
-            maxWidth: "100%",
-            height: "auto",
+            objectFit: "contain",
           }}
           priority
         />
@@ -178,10 +169,9 @@ export default function Traveling() {
           alt="utah"
           width={1200}
           height={800}
-          className="w-full h-auto"
+          className="w-auto max-h-[700px] mx-auto"
           style={{
-            maxWidth: "100%",
-            height: "auto",
+            objectFit: "contain",
           }}
           priority
         />
