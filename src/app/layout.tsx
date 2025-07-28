@@ -4,6 +4,7 @@ import BackgroundNoise from "@/components/global/BackgroundNoise";
 import MobileNav from "@/components/global/MobileNav";
 import Sidebar from "@/components/global/Sidebar";
 import Footer from "@/components/global/Footer";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Felipe Min",
@@ -52,6 +53,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
