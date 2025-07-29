@@ -74,12 +74,9 @@ export default function Sous() {
         <div className="flex-1 flex flex-col space-y-8">
           <div className="flex flex-row justify-between items-center">
             <h1 className="text-4xl font-serif text-white">Sous</h1>
-            <div className="space-x-6">
-              <ChaosLink href="/projects/sous">demo coming soon</ChaosLink>
-              <ChaosLink href="https://github.com/xxfmin/recipe-agent">
-                source code
-              </ChaosLink>
-            </div>
+            <ChaosLink href="https://github.com/xxfmin/recipe-agent">
+              source code
+            </ChaosLink>
           </div>
 
           {/* Technology badges */}
@@ -228,8 +225,9 @@ export default function Sous() {
           </div>
 
           <p className="text-gray-500">
-            currently i&apos;m trying to implement aws s3 and amazon tesseract
-            so that users can save recipes by uploading a recipe image/doc
+            currently i&apos;m working on implementing aws s3 and amazon
+            tesseract so that users can save recipes by uploading a recipe
+            image/doc
           </p>
         </div>
       </div>
