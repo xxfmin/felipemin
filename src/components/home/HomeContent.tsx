@@ -85,7 +85,7 @@ export default function HomeContent() {
               </ChaosLink>
               . My favorite personal{" "}
               <ChaosLink href="/projects">projects</ChaosLink> were making a
-              multi-agent AI platform that combine vision and language a tool
+              multi-agent AI platform that combine vision and language and a tool
               for individuals with color vision deficiency.
             </p>
 
