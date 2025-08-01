@@ -29,15 +29,15 @@ export default function HomeContent() {
       {/* Left content area*/}
       <div className="flex-1 flex flex-col justify-center md:pl-[5%] max-w-full md:pb-0">
         <div
-          className="flex flex-col space-y-6 md:space-y-8 max-w-full md:max-w-2xl w-full md:w-[30vw] text-sm sm:text-base md:text-base lg:text-lg xl:text-lg"
+          className="flex flex-col space-y-6 md:space-y-8 max-w-full md:max-w-2xl w-full md:w-[30vw] text-sm sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-2xl"
           style={{
-            fontSize: "clamp(0.875rem, 1.5vw, 1.125rem)",
-            lineHeight: "clamp(1.4, 1.6, 1.7)",
+            fontSize: "clamp(0.875rem, 1.5vw, 1.5rem)",
+            lineHeight: "clamp(1.4, 1.6, 1.8)",
           }}
         >
           {/* Content */}
           <div
-            className="space-y-4 sm:space-y-5 md:space-y-4 lg:space-y-6"
+            className="space-y-4 sm:space-y-5 md:space-y-4 lg:space-y-6 xl:space-y-7 2xl:space-y-8"
             style={{
               opacity: showPara1 || showPara2 || showPara3 || showPara4 ? 1 : 0,
               visibility:
@@ -55,7 +55,7 @@ export default function HomeContent() {
               }}
             >
               I like building where software meets the real world, and tiny
-              optimizations or insights can make a big difference. I’ve chased
+              optimizations or insights can make a big difference. I've chased
               this feeling across research opportunities, hackathons, and
               full-stack apps I built from scratch. Oh, and I study CS at{" "}
               <ChaosLink href="https://www.cs.ucf.edu/">UCF</ChaosLink>.
@@ -96,10 +96,10 @@ export default function HomeContent() {
                 transition: "opacity 0.5s ease-in-out",
               }}
             >
-              I’ve learned to love the mess that comes with real projects:
-              hitting a wall and rethinking everything. That’s where the good
-              stuff happens. I don’t pretend to know it all, but I ask the right
-              questions, and I’m not afraid to rebuild until it’s right.
+              I've learned to love the mess that comes with real projects:
+              hitting a wall and rethinking everything. That's where the good
+              stuff happens. I don't pretend to know it all, but I ask the right
+              questions, and I'm not afraid to rebuild until it's right.
             </p>
 
             <p
@@ -126,9 +126,9 @@ export default function HomeContent() {
 
           {/* Social Links at bottom */}
           <div
-            className="social-links-bottom space-y-1 sm:space-y-2 text-sm sm:text-base"
+            className="social-links-bottom space-y-1 sm:space-y-2 xl:space-y-3 text-sm sm:text-base xl:text-lg 2xl:text-xl"
             style={{
-              fontSize: "clamp(0.875rem, 1.2vw, 1rem)",
+              fontSize: "clamp(0.875rem, 1.2vw, 1.25rem)",
               opacity: showSocials ? 1 : 0,
               visibility: showSocials ? "visible" : "hidden",
               transition: "opacity 0.5s ease-in-out",
@@ -157,7 +157,7 @@ export default function HomeContent() {
       </div>
 
       {/* Right side ASCII art */}
-      <div className="hidden md:flex items-center justify-center mt-12 md:mt-0 md:pr-[8%]">
+      <div className="hidden md:flex items-center justify-center mt-12 md:mt-0 md:pr-[8%] lg:pr-[10%] xl:pr-[15%] 2xl:pr-[18%]">
         <div
           id="Planet"
           style={{
