@@ -55,7 +55,7 @@ export default function HomeContent() {
               }}
             >
               I like building where software meets the real world, and tiny
-              optimizations or insights can make a big difference. I've chased
+              optimizations or insights can make a big difference. I&apos;ve chased
               this feeling across research opportunities, hackathons, and
               full-stack apps I built from scratch. Oh, and I study CS at{" "}
               <ChaosLink href="https://www.cs.ucf.edu/">UCF</ChaosLink>.
@@ -96,10 +96,10 @@ export default function HomeContent() {
                 transition: "opacity 0.5s ease-in-out",
               }}
             >
-              I've learned to love the mess that comes with real projects:
-              hitting a wall and rethinking everything. That's where the good
-              stuff happens. I don't pretend to know it all, but I ask the right
-              questions, and I'm not afraid to rebuild until it's right.
+              I&apos;ve learned to love the mess that comes with real projects:
+              hitting a wall and rethinking everything. That&apos;s where the good
+              stuff happens. I don&apos;t pretend to know it all, but I ask the right
+              questions, and I&apos;m not afraid to rebuild until it&apos;s right.
             </p>
 
             <p
